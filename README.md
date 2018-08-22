@@ -29,8 +29,11 @@ Explanations of what each file does:
 5. tripadvisor_review_scraper.py, get_reviews.py, get_reviews.sh
 
 > `Scrapy` library is used to do web crawling on TripAdvisor.
+>
 > `tripadvisor_review_scraper.py` contains the actual spider to crawl and parse reviews on TripAdvisor, which accepts `geo_id` and `destination_id` as input. 
+>
 > `get_reviews.py` generates scripts to run the spiders (e.g. scrapy runspider tripadvisor_review_scraper.py -a geo_id=g1019668 -a destination_id=d7046880 -o reviews.csv).
+>
 > `get_reviews.sh` contains the actual bash script which is executed on an AWS EC2 instance to do the crawling.
 
 6.  TripAdvisor Rating Prediction.ipynb
@@ -39,4 +42,4 @@ Explanations of what each file does:
 
 ### Installation
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
