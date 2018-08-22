@@ -1,0 +1,7 @@
+archive
+data
+*.key
+connection.ini
+.ipynb_checkpoints
+__pycache__
+handy-gsa
