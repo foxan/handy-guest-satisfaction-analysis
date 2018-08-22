@@ -1,5 +1,7 @@
 ## handy Guest Satisfaction Analysis
 
+![handy heatmap](/img/handy_heatmap.png)
+
 ### Problem
 
 As handy devices are launched and deployed to more hotels around the world, we are interested to see if it has a positive impact to guest experience overall. In this project, we will use TripAdvisor reviews as a proxy to measure handy's impact on hotel guest experience.
