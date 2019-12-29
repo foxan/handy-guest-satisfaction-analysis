@@ -8,6 +8,8 @@
 # The above will handle all files NOT found below
 #
 
+get_reviews.sh linguist-generated=true
+
 # Documents
 *.bibtex   text diff=bibtex
 *.doc	        diff=astextplain
