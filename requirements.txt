@@ -3,7 +3,7 @@ requests==2.18.4
 Scrapy==1.5.1
 psycopg2==2.7.5
 SQLAlchemy==1.2.1
-Flask==0.12.2
+Flask==1.0
 gmaps==0.8.0
 numpy==1.14.4
 pandas==0.22.0
